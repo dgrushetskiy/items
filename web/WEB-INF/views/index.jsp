@@ -18,7 +18,7 @@
 
     <h1>${hello}</h1>
 
-    <a href="<c:url value='/upload' />">Download This File (located inside project)</a>
+    <a href="<c:url value='/upload' />">Download This File in database(database inside project)</a>
 
 
 </div>
