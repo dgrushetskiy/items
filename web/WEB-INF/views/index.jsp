@@ -6,7 +6,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>User Registration Form</title>
+    <title>Hello FileUpload</title>
     <link href="<c:url value='css/bootstrap.css' />" rel="stylesheet"></link>
     <link href="<c:url value='css/app.css' />" rel="stylesheet"></link>
 </head>
@@ -16,6 +16,7 @@
 <div class="generic-container">
 
 
+    <h1>${hello}</h1>
 
     <a href="<c:url value='/upload' />">Download This File (located inside project)</a>
 

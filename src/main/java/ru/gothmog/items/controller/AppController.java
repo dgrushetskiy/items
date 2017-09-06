@@ -45,7 +45,7 @@ public class AppController {
     @RequestMapping(value = {"/"}, method = RequestMethod.GET)
     public String listItems(ModelMap modelMap){
 //        List<Items> itemsList = itemsService.getList();
-//        modelMap.addAttribute("itemsList", itemsList);
+        modelMap.addAttribute("hello", "FileUpload SpringMVC Hibernate");
         return "index";
     }
 
